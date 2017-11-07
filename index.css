@@ -19,7 +19,7 @@ header {
 #logo {
 	width: 128px;
 	height: 128px;
-	background: url("pics/logo.png") no-repeat;
+	//background: url("pics/logo.png") no-repeat;
 }
 .hidden { display: none;}
 
@@ -56,6 +56,8 @@ nav ul li a:hover {
 h3 {
 	font-size: 25px;
 	text-align: center;
+	padding-top: 35px;
+	margin: 90px 0 40px;
 }
 
 #city-anchor, #fruit-anchor, #food-anchor {
@@ -131,7 +133,49 @@ mark {
 	background: sandybrown;
 }
 
+form {
+	margin: 0 auto;
+	width: 30%;
+	font-size :16px;
+}
+
+form input {
+	margin-left: 10px;
+	height: 25px;
+	padding: 5px 10px;
+	width: 180px;
+	font-size: 12px;
+	border: 1px solid #efefef;
+}
+form textarea {
+	border: 1px solid #efefef;
+}
+
+form input[type=submit] {
+	height: 40px;
+	padding: 10px; 
+	background: sandybrown;
+	font-size: 14px;
+	border: 1px solid #efefef;
+	border-radius: 5px;
+}
+
+form .left{
+	float: left;
+	clear: right;
+}
+form .right{
+	float: right;
+}
+form .clear{
+	clear: both;
+}
+
 footer {
+	clear: both;
 	text-align: right;
 	font-size: 10px;
+	margin-top: 50px;
+	border-top: 1px solid #888;
+	padding: 10px 0 20px;
 }
