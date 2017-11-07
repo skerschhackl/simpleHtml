@@ -1,6 +1,6 @@
 body {
 	margin: 0 auto;
-	font-size: 20px;
+	font-size: 12px;
 	font-family: Helvetica, sans-serif;
 }
 
@@ -25,7 +25,7 @@ header {
 
 nav {
 	float: right;
-	background: sandybrown;
+	font-size: 20px;
 	margin-top: -23px;
 }
 
@@ -38,6 +38,7 @@ nav ul li{
 	float: left;
 	margin: 0 10px;
 	width: 100px;
+	text-align: center;
 }
 
 nav ul li a {
@@ -45,7 +46,18 @@ nav ul li a {
 	color: #000;
 }
 
+nav ul li a:hover {
+	border-bottom: 1px solid sandybrown;	
+	color: sandybrown;
+}
+
 /* MAIN */
+
+h3 {
+	font-size: 25px;
+	text-align: center;
+}
+
 #city-anchor, #fruit-anchor, #food-anchor {
 	height: 400px;
 	width: 100%;
@@ -57,19 +69,66 @@ nav ul li a {
 	width: 33%;
 	float:left;
 }
-.city-article p {
+.city-article .caption {
 	position: absolute;
 	background: #666;
 	color: #fff;
 	margin-top: -60px;
-	height: 25px;
+	height: 27px;
 	width: 260px;
 	padding: 15px 30px;
 	opacity: .5;
+	font-size: 20px;
 }
 
-.city-article p:hover {
+.city-article .caption:hover {
 	opacity: .8;
+}
+
+.fruit-article {
+	width: 22%;
+	margin-left: 2%;
+	float:left;
+}
+
+.first {
+	margin-left: 0.5%;
+}
+
+.fruit-article div.fruit-wrapper {
+	box-shadow: 1px 2px 3px #888888;
+	text-align: center;
+	display: inline-table;
+	min-height: 315px;
+}
+.fruit-article div.fruit-wrapper:hover {
+	box-shadow: 2px 2px 7px sandybrown;
+	margin-top: -3px;
+	margin-left: -3px;
+}
+.fruit-article img {
+	margin: 20px 0 10px;
+}
+.fruit-article .caption {
+	width: 220px;
+	margin: 0 10px;
+	padding-bottom: 20px;
+	text-align: left;
+}
+.fruit-article h5 {
+	font-size: 14px;
+	margin: 10px 0;
+	text-transform: uppercase;
+	text-indent: 10px;
+}
+.fruit-article p {
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+mark {
+	background: sandybrown;
 }
 
 footer {
