@@ -1,6 +1,6 @@
 body {
 	margin: 0 auto;
-	font-size: 12px;
+	font-size: 62.5%;
 	font-family: Helvetica, sans-serif;
 }
 
@@ -11,22 +11,24 @@ body {
 
 header {
 	width: 100%;
-	border-bottom: 2px solid #888;
-	padding: 10px 0;
+	border-bottom: .125rem solid #888;
+	padding: .625rem 0;
 }
 
 
 #logo {
-	width: 128px;
-	height: 128px;
-	//background: url("pics/logo.png") no-repeat;
+	width: 8rem;
+	height: 8rem;
 }
-.hidden { display: none;}
+
+.hidden { 
+	display: none;
+}
 
 nav {
 	float: right;
-	font-size: 20px;
-	margin-top: -23px;
+	font-size: 1.25rem;
+	margin-top: -1.4rem;
 }
 
 nav ul {
@@ -36,8 +38,8 @@ nav ul {
 nav ul li{
 	list-style: none;
 	float: left;
-	margin: 0 10px;
-	width: 100px;
+	margin: 0 .625rem;
+	width: 6.25rem;
 	text-align: center;
 }
 
@@ -47,40 +49,39 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	border-bottom: 1px solid sandybrown;	
+	border-bottom: .0625rem solid sandybrown;	
 	color: sandybrown;
 }
 
 /* MAIN */
 
 h3 {
-	font-size: 25px;
+	font-size: 1.6rem;
 	text-align: center;
-	padding-top: 35px;
-	margin: 90px 0 40px;
+	padding-top: 2.2rem;
+	margin: 5.6rem 0 2.5rem;
 }
 
 #city-anchor, #fruit-anchor, #food-anchor {
-	height: 400px;
+	height: 25rem;
 	width: 100%;
 	clear: left;
-	margin: 0 2.5%;
 }
 
 .city-article {
-	width: 33%;
+	margin: 0 1.2rem;
 	float:left;
 }
 .city-article .caption {
 	position: absolute;
 	background: #666;
 	color: #fff;
-	margin-top: -60px;
-	height: 27px;
-	width: 260px;
-	padding: 15px 30px;
+	margin-top: -3.75rem;
+	height: 1.8rem;
+	width: 16.25rem;
+	padding: .94rem 1.875rem;
 	opacity: .5;
-	font-size: 20px;
+	font-size: 1.25rem;
 }
 
 .city-article .caption:hover {
@@ -88,44 +89,40 @@ h3 {
 }
 
 .fruit-article {
-	width: 22%;
+	margin: 0 .2rem;
 	margin-left: 2%;
 	float:left;
 }
 
-.first {
-	margin-left: 0.5%;
-}
-
 .fruit-article div.fruit-wrapper {
-	box-shadow: 1px 2px 3px #888888;
+	box-shadow: .0625rem .125rem .1875rem #888888;
 	text-align: center;
 	display: inline-table;
-	min-height: 315px;
+	min-height: 19.7rem;
 }
 .fruit-article div.fruit-wrapper:hover {
-	box-shadow: 2px 2px 7px sandybrown;
-	margin-top: -3px;
-	margin-left: -3px;
+	box-shadow: .0625rem .125rem .4375rem sandybrown;
+	margin-top: -.1875rem;
+	margin-left: -.1875rem;
 }
 .fruit-article img {
-	margin: 20px 0 10px;
+	margin: 1.25rem 0 .625rem;
 }
 .fruit-article .caption {
-	width: 220px;
-	margin: 0 10px;
-	padding-bottom: 20px;
+	width: 13.75rem;
+	margin: 0 .625rem;
+	padding-bottom: 1.25rem;
 	text-align: left;
 }
 .fruit-article h5 {
-	font-size: 14px;
-	margin: 10px 0;
+	font-size: .87rem;
+	margin: .625rem 0;
 	text-transform: uppercase;
-	text-indent: 10px;
+	text-indent: .625rem;
 }
 .fruit-article p {
 	margin: 0;
-	font-size: 14px;
+	font-size: .87rem;
 	line-height: 1.5;
 }
 
@@ -136,28 +133,28 @@ mark {
 form {
 	margin: 0 auto;
 	width: 30%;
-	font-size :16px;
+	font-size : 1rem;
 }
 
 form input {
-	margin-left: 10px;
-	height: 25px;
-	padding: 5px 10px;
-	width: 180px;
-	font-size: 12px;
-	border: 1px solid #efefef;
+	margin-left: .625rem;
+	height: 1.56rem;
+	padding: .3rem .625rem;
+	width: 11.25rem;
+	font-size: .85rem;
+	border: .0625rem solid #efefef;
 }
 form textarea {
 	border: 1px solid #efefef;
 }
 
 form input[type=submit] {
-	height: 40px;
-	padding: 10px; 
+	height: 2.5rem;
+	padding: .625rem; 
 	background: sandybrown;
-	font-size: 14px;
-	border: 1px solid #efefef;
-	border-radius: 5px;
+	font-size: .85rem;
+	border: .0625rem solid #efefef;
+	border-radius: .3rem;
 }
 
 form .left{
@@ -174,8 +171,8 @@ form .clear{
 footer {
 	clear: both;
 	text-align: right;
-	font-size: 10px;
-	margin-top: 50px;
-	border-top: 1px solid #888;
-	padding: 10px 0 20px;
+	font-size: .6rem;
+	margin-top: 3.125rem;
+	border-top: .0625rem solid #888;
+	padding: .625rem 0 1.25rem;
 }
